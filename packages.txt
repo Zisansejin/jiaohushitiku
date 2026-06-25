@@ -1,1 +1,6 @@
 zlib1g-dev
+zlib1g-dev
+libjpeg62-turbo-dev
+libpng-dev
+libtiff-dev
+libfreetype-dev
