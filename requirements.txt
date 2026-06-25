@@ -1,11 +1,21 @@
+# 核心框架
 streamlit==1.36.0
-requests
-python-docx
-pypdf
-openpyxl
-markdown
-python-multipart
-python-dotenv
-pydantic
-reportlab
-pandas
+
+# 文档处理
+python-docx==1.1.0
+pypdf==4.0.0
+openpyxl==3.1.2
+reportlab==4.2.0
+
+# 数据处理
+pandas==2.2.0
+numpy==1.26.3
+
+# Web 和网络
+requests==2.31.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# 其他
+markdown==3.5.1
+pydantic==2.5.3
