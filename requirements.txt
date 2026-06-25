@@ -1,0 +1,11 @@
+streamlit==1.36.0
+requests
+python-docx
+pypdf
+openpyxl
+markdown
+python-multipart
+python-dotenv
+pydantic
+reportlab
+pandas
