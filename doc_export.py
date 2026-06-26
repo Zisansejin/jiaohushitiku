@@ -41,7 +41,11 @@ def create_exam_pdf(questions_text: str, title: str, has_answer: bool) -> bytes:
     c = canvas.Canvas(buf, pagesize=A4)
     width, height = A4
     y = height - 40
+    # doc_export.py 第 44 行
+try:
     c.setFont("SimSun", 16)
+except:
+    c.setFont("Helvetica", 16)
     c.drawCentredString(width/2, y, title)
     y -= 25
     c.setFont("SimSun", 12)
